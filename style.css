@@ -1,0 +1,46 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* variables */
+:root {
+  --text-white: #ffffff;
+  --text-red: #ff2639;
+  --text-blue: #174b53;
+  --text-light-blue: #6e8e93;
+  --bg-white: #ffffff;
+  --bg-red: #ff2639;
+}
+/* common */
+body {
+  font-family: "Montserrat", serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-image: url("./images/Home_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: var(--text-white);
+}
+/* custom classes */
+
+.header_area {
+  margin-bottom: 1rem;
+}
+.my-navbar {
+  background: rgba(255, 255, 255, 0.1);
+  /* box-shadow: 0 8px 24px 0 rgba(62, 62, 62, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+}
+
+.my-navbar .navbar-brand {
+  color: var(--text-white);
+  font-weight: 500;
+}
+
+.my-navbar .nav-link,
+.my-navbar .nav-link.active {
+  color: var(--text-white);
+}
