@@ -1,6 +1,9 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 /* variables */
 :root {
   --text-white: #ffffff;
@@ -19,11 +22,30 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   color: var(--text-white);
+  overflow-x: hidden;
 }
+.section_heading h1 {
+  font-size: 3rem;
+  font-size: clamp(1.5rem, 0.6667rem + 4.1667vw, 4rem);
+  line-height: 3.5rem;
+  font-weight: bold;
+}
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/* img, svg{
+  width: 100%;
+  object-fit: cover;
+} */
 /* custom classes */
 
+/* header css start */
 .header_area {
   margin-bottom: 1rem;
 }
@@ -34,13 +56,51 @@ body {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 0.5rem;
 }
-
 .my-navbar .navbar-brand {
   color: var(--text-white);
   font-weight: 500;
 }
-
-.my-navbar .nav-link,
-.my-navbar .nav-link.active {
+.my-navbar .nav-link {
   color: var(--text-white);
 }
+/* header css end */
+
+/* T & C css start */
+.tc_area {
+  padding: 2rem 0;
+}
+
+.condition_cards {
+}
+
+.condition_card {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  /* box-shadow: 0 8px 24px 0 rgba(62, 62, 62, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+  
+}
+
+.condition_card_img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+}
+.condition_card_img h2{
+  font-size: 1.2rem;
+}
+.condition_card_img i {
+  font-size: 3rem;
+}
+
+.condition_card_txt {
+}
+.condition_card_txt h2 {
+  font-size: 1.2rem;
+}
+.condition_card_txt p {
+}
+
+/* T & C css end */
