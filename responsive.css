@@ -10,6 +10,9 @@
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .my-navbar .nav-link {
+    width: 15%;
+  }
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
