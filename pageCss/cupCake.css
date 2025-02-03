@@ -1,0 +1,145 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* variables */
+:root {
+  --text-white: #ffffff;
+  --text-red: #ff2639;
+  --text-blue: #174b53;
+  --text-light-blue: #6e8e93;
+  --bg-white: #ffffff;
+  --bg-red: #ff2639;
+}
+/* common */
+body {
+  font-family: "Montserrat", serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url("/images/Home_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: var(--text-white);
+  overflow-x: hidden;
+}
+.section_heading h1 {
+  font-size: 3rem;
+  font-size: clamp(1.5rem, 0.6667rem + 4.1667vw, 4rem);
+  line-height: 3.5rem;
+  font-weight: bold;
+}
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* custom classes */
+
+/* header css start */
+.header_area {
+  margin-bottom: 1rem;
+}
+.my-navbar {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+}
+.my-navbar .navbar-brand {
+  color: var(--text-white);
+  font-weight: 500;
+}
+
+.my-navbar .navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+}
+
+.my-navbar .navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.my-navbar .nav-link {
+  color: var(--text-white);
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.my-navbar .nav-link:hover {
+  border-bottom: 2px solid var(--text-white);
+  opacity: 0.7;
+  transform: translateY(-2px);
+}
+/* header css end */
+
+/* footer area start */
+.footer_area {
+  position: relative;
+}
+
+.footer_area::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+  border-radius: 0.5rem;
+}
+
+.footer_area .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.footer_area .social {
+  display: flex;
+  flex-direction: column;
+}
+.footer_area h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.footer_area .social ul {
+  margin: 0;
+}
+
+.footer_area .social a {
+  text-decoration: none;
+  color: var(--text-white);
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.footer_area .social a:hover {
+  transform: translateY(-3px);
+  border-bottom: 2px solid var(--text-white);
+}
+
+.footer_area .social a i {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.footer_area .copyright p:last-child {
+  font-size: 12px;
+}
+
+.footer_area .copyright a {
+  color: var(--text-white);
+}
+
+.footer_area hr {
+  margin: 1.5rem 0;
+}
+/* footer area end */
