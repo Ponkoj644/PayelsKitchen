@@ -49,3 +49,50 @@ BOX CONTAINS 6 CUPCAKES
 EXTRA TOPPINGS AVAILABLE
 *ADDITIONAL CHARGES APPLY
 WE USE BERYL'S AND VAN HAUTAIN CHOCOLATE
+
+
+WHIPPED CAKES PAGE
+==================
+JALIL'S KITCHEN
+TASTE HOME-MADE
+WHIPPED CREAM CAKES
+FLAVOR
+TK/POUND
+Vanilla Cake
+1,000
+
+Chocolate Cake
+(Layered with Dark Chocolate Ganache)
+1,100
+
+Black Forest Cake
+(Layered with Dark Chocolate Cream and Cherry Filling)
+1,200
+
+
+Red Velvet
+(Layered with Cream Cheese Frosting)
+1,200
+
+Butterscotch Cake
+(Layered with Sauce and Mixed Nuts Proline)
+1,200
+
+Blueberry / Strawberry Cake
+(Layered with Blueberry/Strawberry filling)
+1,200
+
+Lemon/Orange Cake
+(Layered with Lemon/Orange Curd Filling)
+1,200
+
+Mango (Seasonal)
+(Layered with Mango Moose)
+1,300
+
+Tiramisu
+(Layered with Whipped Cream and Cream Cheese)
+
+SOFT SPONGE BASE FLUFFY WHIPPED CREAM
+CHOICE OF FILLING
+WE USE EVERWHIP FOR OUR WHIP CREAM
