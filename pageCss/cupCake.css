@@ -62,10 +62,12 @@ p {
   margin-bottom: 1rem;
 }
 .my-navbar {
-  background: rgb(255, 38, 56, 0.25);
+  background: rgb(255, 38, 56, 0.7);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .my-navbar .navbar-brand {
   color: var(--text-white);
@@ -86,6 +88,7 @@ p {
   color: var(--text-white);
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease-in-out;
+  display: inline-block;
 }
 
 .my-navbar .nav-link:hover {
@@ -100,28 +103,41 @@ p {
   font-weight: 800;
 }
 /* Item container css */
-.items_contaimer {
-}
-.items_contaimer .item_img {
+
+.items_container .item_img {
   max-width: 250px;
   /* height: 300px; */
 }
 
-.items_contaimer .item_img img {
+.items_container .item_img img {
   width: 100%;
   object-fit: cover;
 }
 
-.items_contaimer .item_txt h3 {
+.items_container .item_txt h3 {
   font-size: 1.2rem;
   color: var(--text-red);
 }
 
-.items_contaimer .item_txt span {
+.items_container .item_txt span {
   /* font-size: 1.5rem; */
   font-size: clamp(1.5rem, 1.0714rem + 2.1429vw, 3rem);
   font-weight: 800;
   color: var(--text-red);
+}
+
+.cupCake_txt h3 {
+  font-size: 1rem;
+  color: var(--text-red);
+}
+
+.cupCake_txt div p {
+  color: #295961;
+}
+
+.cupCake_txt:last-child {
+  color: var(--text-red);
+  font-weight: 600;
 }
 
 /* footer area start */
