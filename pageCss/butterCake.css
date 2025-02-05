@@ -98,15 +98,15 @@ p {
 }
 /* header css end */
 
-.whipped_cake_area .section_heading h1 {
+/* butter cake css */
+.butter_cake_area .section_heading h1 {
   color: var(--text-red);
   font-weight: 800;
 }
-/* Item container css */
 
+/* Item container css */
 .items_container .item_img {
   max-width: 500px;
-  /* height: 300px; */
 }
 
 .items_container .item_img img {
