@@ -112,7 +112,7 @@ p {
 .items_container .item_img img {
   width: 100%;
   object-fit: cover;
-  filter: drop-shadow(5px 10px 20px #ff2638);
+  filter: drop-shadow(5px 10px 20px rgb(187, 34, 50, 0.6));
 }
 
 .items_container .item_txt h3 {
@@ -128,7 +128,8 @@ p {
 }
 
 .whipped_cake_txt h3 {
-  font-size: 1rem;
+  font-size: clamp(0.635rem, 0.4821rem + 0.7143vw, 1.125rem);
+  /* font-size: 1rem; */
   color: var(--text-red);
 }
 
