@@ -92,7 +92,7 @@ p {
 }
 
 .my-navbar .nav-link:hover {
-  border-bottom: 2px solid var(--text-red);
+  border-bottom: 2px solid var(--text-white);
   opacity: 0.7;
   transform: translateY(-2px);
 }
@@ -127,7 +127,7 @@ p {
   color: var(--text-red);
 }
 
- .whipped_cake_txt h3 {
+.whipped_cake_txt h3 {
   font-size: 1rem;
   color: var(--text-red);
 }
@@ -143,32 +143,58 @@ p {
 
 /* Whipped cake Price css */
 
-.cake_pricing{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+.pricing_head {
+  text-align: center;
+
 }
 
-.cake_pricing .price_heading h3{
-    font-size: 1.3rem;
-    font-weight: 700;
+.pricing_head h4 {
+  display: inline;
+  text-transform: uppercase;
+  font-size: clamp(1.5rem, 1.2143rem + 1.4286vw, 2.5rem);
+  font-weight: 600;
+  color: var(--text-red);
+  border-bottom: 2px solid red;
+}
+.cake_pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.cake_pricing h3{
-    color: var(--text-blue);
-    font-size: 1.2rem;
-    font-weight: 500;
+.cake_pricing .price_heading h3 {
+  /* font-size: 1.3rem; */
+  font-size: clamp(1rem, 0.6571rem + 0.7143vw, 1.3rem);
+
+  font-weight: 700;
 }
 
-.cake_pricing .cake_name p{
-    color: var(--text-red);
+.cake_pricing h3 {
+  color: var(--text-blue);
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
-.cake_pricing .cake_price p{
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: var(--text-blue);
-    
+.cake_pricing hr {
+  display: block;
+  opacity: 0.3;
+  border: 1px solid var(--bg-red);
+  margin: 0;
+  padding: 0;
+}
+
+.cake_pricing .cake_name h3 {
+  font-size: clamp(1rem, 0.9429rem + 0.2857vw, 1.2rem);
+}
+
+.cake_pricing .cake_name p {
+  color: var(--text-red);
+}
+
+.cake_pricing .cake_price p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-blue);
 }
 
 /* footer area start */

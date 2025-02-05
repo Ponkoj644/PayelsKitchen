@@ -92,7 +92,7 @@ p {
 }
 
 .my-navbar .nav-link:hover {
-  border-bottom: 2px solid var(--text-red);
+  border-bottom: 2px solid var(--text-white);
   opacity: 0.7;
   transform: translateY(-2px);
 }
