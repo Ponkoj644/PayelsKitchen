@@ -99,7 +99,7 @@ p {
 /* header css end */
 
 /* butter cake css */
-.butter_cake_area .section_heading h1 {
+.premium_cake_area .section_heading h1 {
   color: var(--text-red);
   font-weight: 800;
 }
@@ -127,17 +127,17 @@ p {
   color: var(--text-red);
 }
 
-.premium_cake_txt h3 {
+.whipped_cake_txt h3 {
   font-size: clamp(0.635rem, 0.4821rem + 0.7143vw, 1.125rem);
   /* font-size: 1rem; */
   color: var(--text-red);
 }
 
-.premium_cake_txt div p {
+.whipped_cake_txt div p {
   color: #295961;
 }
 
-.premium_cake_txt:last-child {
+.whipped_cake_txt:last-child {
   color: var(--text-red);
   font-weight: 600;
 }
