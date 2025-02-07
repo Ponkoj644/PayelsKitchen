@@ -74,7 +74,7 @@ p {
 
 .my-navbar .nav-link:hover {
   border-bottom: 2px solid var(--text-white);
-  opacity: .7;
+  opacity: 0.7;
   transform: translateY(-2px);
 }
 /* header css end */
@@ -90,9 +90,8 @@ p {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 0.5rem;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   position: relative;
-
 }
 
 .condition_card:hover {
