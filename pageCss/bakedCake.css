@@ -1,0 +1,263 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* variables */
+:root {
+  --text-white: #ffffff;
+  --text-red: #ff2638;
+  --text-blue: #174b53;
+  --text-light-blue: #6e8e93;
+  --bg-white: #ffffff;
+  --bg-red: #ff2639;
+}
+/* common */
+body {
+  font-family: "Montserrat", serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url("../images/cupCake_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: var(--text-white);
+  overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 38, 57, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: -1;
+}
+.section_heading h1 {
+  font-size: 3rem;
+
+  font-size: clamp(3rem, 2.4286rem + 2.8571vw, 5rem);
+  line-height: 3.5rem;
+  font-weight: bold;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* custom classes */
+
+/* header css start */
+.header_area {
+  margin-bottom: 1rem;
+}
+.my-navbar {
+  background: rgb(255, 38, 56, 0.7);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.my-navbar .navbar-brand {
+  color: var(--text-white);
+  font-weight: 500;
+}
+
+.my-navbar .navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+}
+
+.my-navbar .navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.my-navbar .nav-link {
+  color: var(--text-white);
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.my-navbar .nav-link:hover {
+  border-bottom: 2px solid var(--text-white);
+  opacity: 0.7;
+  transform: translateY(-2px);
+}
+/* header css end */
+
+/* baked cake css */
+.baked_cake_area .section_heading h1 {
+  color: var(--text-red);
+  font-weight: 800;
+  font-size: clamp(2rem, 1.4286rem + 2.8571vw, 4rem);
+}
+
+/* Item container css */
+.items_container .item_img {
+  max-width: 500px;
+}
+
+.items_container .item_img img {
+  width: 100%;
+  object-fit: cover;
+  filter: drop-shadow(5px 10px 20px rgb(187, 34, 50, 0.6));
+}
+
+.items_container .item_txt h3 {
+  font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
+
+  color: var(--text-red);
+}
+
+.items_container .item_txt span {
+  /* font-size: 1.5rem; */
+  font-size: clamp(1.5rem, 1.0714rem + 2.1429vw, 3rem);
+  font-weight: 800;
+  color: var(--text-red);
+}
+
+.whipped_cake_txt h3 {
+  font-size: clamp(0.635rem, 0.4821rem + 0.7143vw, 1.125rem);
+  /* font-size: 1rem; */
+  color: var(--text-red);
+}
+
+.whipped_cake_txt div p {
+  color: #295961;
+}
+
+.whipped_cake_txt:last-child {
+  color: var(--text-red);
+  font-weight: 600;
+}
+
+/* Whipped cake Price css */
+
+.pricing_head {
+  text-align: center;
+}
+
+.pricing_head h4 {
+  display: inline;
+  text-transform: uppercase;
+  font-size: clamp(1.5rem, 1.2143rem + 1.4286vw, 2.5rem);
+  font-weight: 600;
+  color: var(--text-red);
+  border-bottom: 2px solid red;
+}
+.cake_pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cake_pricing .price_heading h3 {
+  /* font-size: 1.3rem; */
+  font-size: clamp(1rem, 0.6571rem + 0.7143vw, 1.3rem);
+
+  font-weight: 700;
+}
+
+.cake_pricing h3 {
+  color: var(--text-blue);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.cake_pricing hr {
+  display: block;
+  opacity: 0.3;
+  border: 1px solid var(--bg-red);
+  margin: 0;
+  padding: 0;
+}
+
+.cake_pricing .cake_name h3 {
+  font-size: clamp(1rem, 0.9429rem + 0.2857vw, 1.2rem);
+}
+
+.cake_pricing .cake_name p {
+  color: var(--text-red);
+}
+
+.cake_pricing .cake_price p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-blue);
+}
+
+/* footer area start */
+.footer_area {
+  position: relative;
+}
+.footer_area::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  z-index: -1;
+  border-radius: 0.5rem;
+}
+.footer_area .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.footer_area .social {
+  display: flex;
+  flex-direction: column;
+}
+.footer_area h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.footer_area .social ul {
+  margin: 0;
+}
+
+.footer_area .social a {
+  text-decoration: none;
+  color: var(--text-white);
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.footer_area .social a:hover {
+  transform: translateY(-3px);
+  border-bottom: 2px solid var(--text-white);
+}
+
+.footer_area .social a i {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.footer_area .copyright p:last-child {
+  font-size: 12px;
+}
+
+.footer_area .copyright a {
+  color: var(--text-white);
+}
+
+.footer_area hr {
+  margin: 1.5rem 0;
+}
+/* footer area end */

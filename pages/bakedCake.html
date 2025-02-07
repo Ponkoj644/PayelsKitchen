@@ -1,11 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Payel's Bakery || Premium Cakes</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- style css  -->
+    <link rel="stylesheet" href="../pageCss/bakedCake.css" />
   </head>
   <body>
-    <h1>This is baked cake page</h1>
+    <!-- header start -->
+    <header>
+      <section class="header_area">
+        <!-- navbar 1 -->
+        <nav class="navbar navbar-expand-lg my-navbar py-3 py-lg-3 shadow">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"
+              ><span>P</span>ayel's Bekary</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="">
+                <i class="bi bi-house px-2 py-2 text-white"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-lg-3 gap-2">
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/cupCake.html">Cupcake</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/whippedCakes.html"
+                    >Whipped Cake</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/butterCake.html"
+                    >Butter Cake</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/premiumCake.html"
+                    >Premium Cake</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/bakedCake.html"
+                    >Baked Cake</a
+                  >
+                </li>
+              </ul>
+
+              <div class="d-flex">
+                <button class="btn text-white border">contact</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <!-- header end -->
+    <main>
+      <!-- butter cake section start -->
+      <section class="baked_cake_area">
+        <div class="container">
+          <div class="row">
+            <div class="section_heading text-center my-5">
+              <h1>BAKED CHEESE CAKE</h1>
+            </div>
+          </div>
+
+          <div class="row my-3 my-lg-5">
+            <div class="items_container">
+              <!-- item 1 -->
+              <div class="col-12">
+                <div
+                  class="item d-flex flex-column flex-md-row align-items-center gap-3 gap-lg-5 py-3 py-lg-0"
+                >
+                  <div class="item_img">
+                    <img
+                      src="../images/baked_cake.png"
+                      alt="Baked cake "
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="item_txt">
+                    <h3>Chocolate Cheese Cake</h3>
+                    <span>2,000 TK</span>
+                  </div>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div class="col-12">
+                <div
+                  class="item d-flex flex-column flex-md-row flex-lg-row-reverse align-items-center gap-3 gap-lg-5 py-3 py-lg-0"
+                >
+                  <div class="item_img">
+                    <img
+                      src="../images/baked_cake2.png"
+                      alt="Blueberry"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="item_txt">
+                    <h3>Blueberry/Strawberry</h3>
+                    <span>2,000 TK</span>
+                  </div>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="col-12">
+                <div
+                  class="item d-flex flex-column flex-md-row align-items-center gap-3 gap-lg-5 py-3 py-lg-0"
+                >
+                  <div class="item_img">
+                    <img
+                      src="../images/baked_cake3.png"
+                      alt="Butterscotch Cheese"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="item_txt">
+                    <h3>Butterscotch Cheese Cake</h3>
+                    <span>2,000 TK</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- item 4 -->
+              <div class="col-12">
+                <div
+                  class="item d-flex flex-column flex-md-row-reverse align-items-center gap-3 gap-lg-3 py-5 py-md-3 py-lg-0"
+                >
+                  <div class="item_img">
+                    <img
+                      src="../images/baked_cake4.png"
+                      alt="Bake cake"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="item_txt">
+                    <h3>Oreo Cheese Cake</h3>
+                    <span>2,200 TK</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pricing  -->
+          <div class="row mt-3 mt-lg-5 bg-white p-3 p-lg-5 rounded-3">
+            <div class="pricing_head py-5 ">
+              <h4>Our Pricing</h4>
+            </div>
+            <div class="cake_pricing">
+              <div
+                class="price_heading d-flex align-items-center justify-content-between mb-3"
+              >
+                <h3>FLAVOR</h3>
+                <h3>TK/600gm</h3>
+              </div>
+
+              <!-- Cake 1 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between gap-2"
+              >
+                <div class="cake_name">
+                  <h3>Chocolate Cheese Cake</h3>
+                  <p>(Topped with Beryl's Milk Chocolate Ganache)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>2,000</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 2 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between gap-2"
+              >
+                <div class="cake_name">
+                  <h3>Blueberry/Strawberry/Cherry</h3>
+                  <p>(Topped with Chosen Filing)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>2,000</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 3 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between gap-2"
+              >
+                <div class="cake_name">
+                  <h3>Butterscotch Cheese Cake</h3>
+                  <p>(Topped with Butterscotch Sauce and Mixed Nuts)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>2,000</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 4 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between gap-2"
+              >
+                <div class="cake_name">
+                  <h3>Oreo Cheese Cake</h3>
+                  <p>(Topped with White Chocolate Ganache and Oreos)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>2,200</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 5 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between"
+              >
+                <div class="cake_name">
+                  <h3>Biscoff Cheese Cake</h3>
+                  <p>(Topped with Biscoff Spread and Lotus Biscuits Crumbs)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>2,500</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 6 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between"
+              >
+                <div class="cake_name">
+                  <h3>Carrot Cake</h3>
+                  <p>(Layered with Mixed Nuts and Cream Cheese)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>3,500</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 7 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between"
+              >
+                <div class="cake_name">
+                  <h3>Biscoff Cake</h3>
+                  <p>(Layered with Biscoff Spread and Lotus Biscuits Crumbs)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>3,500</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 8 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between gap-2"
+              >
+                <div class="cake_name">
+                  <h3>Oreo Cake</h3>
+                  <p>
+                    (Layered with House Special Cream and Imported Crushed
+                    Creas)
+                  </p>
+                </div>
+
+                <div class="cake_price">
+                  <p>3,200</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 9 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between gap-2"
+              >
+                <div class="cake_name">
+                  <h3>Biscoff Cheese Cake</h3>
+                  <p>(Topped with Biscoff Spread and Lotus Biscuits Crumbs)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>2,500</p>
+                </div>
+              </div>
+              <hr />
+
+              <!-- Cake 10 -->
+              <div
+                class="cake_details d-flex align-items-center justify-content-between gap-2"
+              >
+                <div class="cake_name">
+                  <h3>Burnt Basque Cheese Cake</h3>
+                  <p>(House Special Cheese Cake)</p>
+                </div>
+
+                <div class="cake_price">
+                  <p>2,600</p>
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+
+          <!-- Additional text -->
+          <div class="row py-5 text-center">
+            <div class="whipped_cake_txt premium_cake_txt">
+              <h3 class="border border-1 d-inline p-2 border-danger rounded">
+                RICH BUTTER-BASED CAKE, CREAMY TEXTURE
+              </h3>
+              <div class="py-4">
+                <p><strong>CHOICE OF FILLING</strong></p>
+              </div>
+              <p class="mb-2">WE USE ALMARAI / GRAND'OR / BEGA CREAM CHEESE.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cup cake section end -->
+    </main>
+
+    <!-- footer stert -->
+    <footer>
+      <section class="footer_area py-3">
+        <div class="container-fluid">
+          <div
+            class="row row-cols-md-2 align-items-center justify-content-between"
+          >
+            <!-- left side -->
+            <div class="col-lg-4">
+              <h3>
+                <a class="navbar-brand" href="../index.html"
+                  ><span>P</span>ayel's Bekary</a
+                >
+              </h3>
+
+              <p>Your trasted partner</p>
+            </div>
+
+            <!-- middle side -->
+            <div class="col-lg-4">
+              <div class="social mt-3 mt-lg-0">
+                <h3>Follow us</h3>
+                <ul class="p-0">
+                  <li class="list-unstyled d-flex gap-3">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- right side -->
+            <div class="col-lg-4">
+              <div class="social mt-3 mt-lg-0">
+                <h3>Links</h3>
+                <ul class="p-0">
+                  <li class="list-unstyled d-flex gap-3">
+                    <a href="../pages/cupCake.html">Cup</a>
+                    <a href="../pages/butterCake.html"> Whipped</a>
+                    <a href="../pages/premiumCake.html"> Premium</a>
+                    <a href="../pages/bakedCake.html"> Baked</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- copyright -->
+          <div
+            class="copyright d-flex flex-column align-items-center justify-content-center gap-1"
+          >
+            <p>Copyright &copy; 2025 Payel's Bekery. All right reserved</p>
+            <p>
+              Designed & Devloped by
+              <span
+                ><a
+                  href="https://web.facebook.com/ponkoj.mondol.bd"
+                  target="_blank"
+                  >OROMI IT</a
+                ></span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- footer end -->
+
+    <!-- bootstrap js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
