@@ -1,6 +1,8 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+
 /* bootstrap icon */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
@@ -41,9 +43,8 @@ body::before {
   z-index: -1;
 }
 .section_heading h1 {
-  font-size: 3rem;
-
-  font-size: clamp(3rem, 2.4286rem + 2.8571vw, 5rem);
+  font-family: "Nosifer", serif;
+  font-size: clamp(2rem, 1.4286rem + 2.8571vw, 4rem);
   line-height: 3.5rem;
   font-weight: bold;
 }
@@ -116,7 +117,8 @@ p {
 }
 
 .items_container .item_txt h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: var(--text-red);
 }
 
@@ -127,17 +129,17 @@ p {
   color: var(--text-red);
 }
 
-.premium_cake_txt h3 {
+.butter_cake_txt h3 {
   font-size: clamp(0.635rem, 0.4821rem + 0.7143vw, 1.125rem);
   /* font-size: 1rem; */
   color: var(--text-red);
 }
 
-.premium_cake_txt div p {
+.butter_cake_txt div p {
   color: #295961;
 }
 
-.premium_cake_txt:last-child {
+.butter_cake_txt:last-child {
   color: var(--text-red);
   font-weight: 600;
 }
